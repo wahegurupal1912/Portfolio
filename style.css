@@ -1,0 +1,41 @@
+html, body, .fullheight {
+    min-height: 100% !important;
+    height: 100%;
+}
+
+.background-height{
+    height: 90%;
+    position: relative;
+}
+
+.background-col-left{
+    background-color: #1D3557;
+}
+
+.background-col-right{
+    background-color: #457B9D;
+}
+
+.profile-card-container{
+    height: 100%;
+    position: absolute;
+}
+
+.profile-card{
+    width: 50rem;
+}
+
+.profile-picture{
+    border: 0px;
+    border-radius: 50%;
+    width: 13rem;
+    height: 13rem;
+}
+
+.profile-summary-card{
+    background-color: transparent !important;
+}
+
+.role{
+    margin-top: 40%;
+}
