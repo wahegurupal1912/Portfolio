@@ -1,6 +1,7 @@
 html, body, .fullheight {
     min-height: 100% !important;
     height: 100%;
+    font-family: 'Poppins', sans-serif;
 }
 
 .background-height{
@@ -12,7 +13,7 @@ html, body, .fullheight {
     background-color: #1D3557;
 }
 
-.background-col-right{
+.card-col-left{
     background-color: #457B9D;
 }
 
@@ -22,14 +23,16 @@ html, body, .fullheight {
 }
 
 .profile-card{
-    width: 50rem;
+    width: 45rem;
 }
 
 .profile-picture{
-    border: 0px;
+    border: 2px;
+    border-color: black;
     border-radius: 50%;
-    width: 13rem;
-    height: 13rem;
+    width: 12rem;
+    height: 12rem;
+    object-fit: cover;
 }
 
 .profile-summary-card{
@@ -38,4 +41,28 @@ html, body, .fullheight {
 
 .role{
     margin-top: 40%;
+}
+
+.card-name{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.card-title{
+    font-size: medium;
+    font-weight: 400;
+    font-family: 'Sen', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: black;
+}
+
+p{
+    font-family: 'Sen', sans-serif;
 }
