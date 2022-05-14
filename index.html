@@ -8,6 +8,7 @@
         
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="./backgroundAnimation.css">
         
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,7 +17,7 @@
     </head>
     <body>
         <!-- header -->
-        <nav class="navbar navbar-expand-md navbar-light bg-light p-md-4 border-bottom">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light p-md-4 border-bottom">
             <div class="container-fluid">
                 <a class="navbar-brand fs-3" href="index.html">
                     <img src="./img/logo.png" alt="" width="50" height="50" class="">
@@ -29,16 +30,16 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            <a class="nav-link active" aria-current="page" href="index.html">About Me</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Experience</a>
+                            <a class="nav-link" href="#">Resume</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Resume</a>
+                            <a class="nav-link" href="./pages/contact.html">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -46,65 +47,65 @@
         </nav>
         <!-- header -->
 
-        <div class="container-fluid fullheight">            
+        <div class="container-fluid container-height">            
             <div class="row background-height bg-light">
-                <div class="col-md-5 background-col-left"></div>
+                <div class="col-md-5 background-col-left px-0">
+                    <div class="animated-area">
+                        <ul class="circles px-0">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
                 <div class="col-md-7 d-none d-md-block"></div>
 
                 <div class="profile-card-container d-flex justify-content-center align-items-center">
-                    <div class="profile-card shadow">
-                        <div class="row ms-0 me-0">
-
-                            <div class="col-md-5 p-4 card-col-left d-flex justify-content-center">
-                                <div class="card text-center profile-summary-card border-0">
-                                    <img src="./img/profile-picture.jpg" alt="profile-picture" class="img-fluid mx-auto d-block profile-picture">
-                                    <h4 class="card-name mt-4 mb-md-4">Wahegurupal<br />Mankoo</h5>
-                                    <p class="card-title mt-md-4">SOFTWARE DEVELOPER</p>                                
-                                </div>
-                            </div>
-
-                            <div class="col-md-7 p-5 bg-white">
-                                <h1 class="display-2 fw-bold">Hello,</h1>
-                                <h5 class="fw-normal">I am Application Developer at Wawanesa Insurance</h5>
-                                <div class="my-3">
-                                    <button type="button" class="btn btn-danger btn-sm rounded-pill px-4">Resume</button>
-                                    <button type="button" class="btn btn-outline-dark btn-sm ms-3 px-4 rounded-pill">Projects</button>
-                                </div>
-                                <p class="fw-light">Profile summary section</p>
-                            </div>
-
-                        </div>
-
-                        <div class="row bg-white border-top ms-0 me-0">
-                            <div class="col">
-                                <div class="row py-3">
-                                    <div class="col">
-                                        <div class="row">
-                                            <div class="col-12 d-flex justify-content-center fw-bold">Phone</div>
-                                            <div class="col-12 d-flex justify-content-center mt-1">204-698-5656</div>
+                    <div class="row">
+                        <div class="col-md-6 d-flex justify-content-md-end justify-content-sm-center">
+                            <div class="profile-card">
+                                <div class="row shadow ms-0 me-0">
+                                    <div class="col-12 py-5 px-4 shadow card-col-left d-flex justify-content-center">
+                                        <div class="card text-center profile-summary-card border-0">
+                                            <img src="./img/profile-picture.jpg" alt="profile-picture" class="img-fluid mx-auto d-block profile-picture">
+                                            <h4 class="card-name mt-4 mb-4">Wahegurupal<br />Mankoo</h4>
+                                            <hr noshade="noshade" class="mx-auto my-0"/>
+                                            <p class="card-title mt-4 mb-0">SOFTWARE DEVELOPER</p>                                
                                         </div>
                                     </div>
-                                    <div class="col">
-                                        <div class="row">
-                                            <div class="col-12 d-flex justify-content-center fw-bold">Email</div>
-                                            <div class="col-12 d-flex justify-content-center mt-1">
-                                                <a class="email" href="mailto:mankoo1912@gmail.com">mankoo1912@gmail.com</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col">
-                                        <div class="row">
-                                            <div class="col-12 d-flex justify-content-center fw-bold">Socials</div>
+                                    <div class="col-12 bg-light d-flex justify-content-center">
+                                        <div class="row p-3">
                                             <div class="col-12 d-flex justify-content-center mt-1">
                                                 <a href="https://www.linkedin.com/in/wahegurupal-mankoo" target="_blank">
-                                                    <i class="fa-brands fa-linkedin-in me-2" style="font-size:20px;"></i>
+                                                    <i class="fa-brands fa-linkedin-in me-3" style="font-size:25px;"></i>
                                                 </a>
                                                 <a href="https://github.com/wahegurupal1912" target="_blank">
-                                                    <i class="fa-brands fa-github ms-2" style="font-size:20px;"></i>
+                                                    <i class="fa-brands fa-github ms-3" style="font-size:25px;"></i>
                                                 </a>
                                             </div>
                                         </div>
                                     </div>
+                                </div>        
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6 d-flex justify-content-md-end justify-content-sm-center align-items-center">
+                            <div class="card info-card profile-summary-card border-0">
+                                <div class="card-body px-0">
+                                    <h1 class="display-2 fw-bold">Hello,</h1>
+                                    <h5 class="fw-normal">I am Software Developer recently graduated in May, 2021.</h5>
+                                    <div class="my-3">
+                                        <button type="button" class="btn btn-danger rounded-pill px-4">Resume</button>
+                                        <button type="button" class="btn btn-outline-dark ms-3 px-4 rounded-pill">Projects</button>
+                                    </div>
+                                    <p class="fw-light">Profile summary section</p>
                                 </div>
                             </div>
                         </div>
@@ -112,6 +113,46 @@
                 </div>
             </div>
         </div>
+
+        <footer class="border-top bg-light">
+            <div class="row p-4">
+                <div class="col-lg-4 col-sm-12 mt-lg-0 mt-sm-3">
+                    <div class="row">
+                        <p class="col-12 d-flex justify-content-sm-center justify-content-lg-start  fw-light">© 2022 Wahegurupal Singh Mankoo</p>
+                        <p class="col-12 d-flex justify-content-sm-center justify-content-lg-start fw-light mt-1">
+                            Made with&nbsp;<i class="fas fa-heart my-auto" aria-hidden="true"></i> &nbsp;from Winnipeg, MB
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-2 offset-lg-2 col-sm-12 mt-lg-0 mt-sm-3">
+                    <div class="row">
+                        <div class="col-12 d-flex justify-content-center fw-bold">Phone</div>
+                        <div class="col-12 d-flex justify-content-center mt-1">204-698-5656</div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-12 mt-lg-0 mt-sm-3">
+                    <div class="row">
+                        <div class="col-12 d-flex justify-content-center fw-bold">Email</div>
+                        <div class="col-12 d-flex justify-content-center mt-1">
+                            <a class="email" href="mailto:mankoo1912@gmail.com">mankoo1912@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-12 mt-lg-0 mt-sm-3">
+                    <div class="row">
+                        <div class="col-12 d-flex justify-content-center fw-bold">Socials</div>
+                        <div class="col-12 d-flex justify-content-center mt-1">
+                            <a href="https://www.linkedin.com/in/wahegurupal-mankoo" target="_blank">
+                                <i class="fa-brands fa-linkedin-in me-2" style="font-size:20px;"></i>
+                            </a>
+                            <a href="https://github.com/wahegurupal1912" target="_blank">
+                                <i class="fa-brands fa-github ms-2" style="font-size:20px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
         <script src="https://kit.fontawesome.com/5339a3e1a5.js" crossorigin="anonymous"></script>

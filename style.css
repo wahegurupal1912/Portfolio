@@ -1,20 +1,23 @@
-html, body, .fullheight {
+html, body {
     min-height: 100% !important;
     height: 100%;
     font-family: 'Poppins', sans-serif;
 }
 
-.background-height{
+.container-height{
     height: 90%;
-    position: relative;
+}
+
+.background-height{
+    height: 100%;
 }
 
 .background-col-left{
-    background-color: #1D3557;
+    background-color: #4D5E72;
 }
 
 .card-col-left{
-    background-color: #457B9D;
+    background-color: #355C7D;
 }
 
 .profile-card-container{
@@ -23,20 +26,21 @@ html, body, .fullheight {
 }
 
 .profile-card{
-    width: 45rem;
+    width: 25rem;
 }
 
 .profile-picture{
     border: 2px;
     border-color: black;
     border-radius: 50%;
-    width: 12rem;
-    height: 12rem;
+    width: 13rem;
+    height: 13rem;
     object-fit: cover;
 }
 
 .profile-summary-card{
     background-color: transparent !important;
+    width: 30rem;
 }
 
 .role{
@@ -44,13 +48,13 @@ html, body, .fullheight {
 }
 
 .card-name{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 600;
 }
 
 .card-title{
     font-size: medium;
-    font-weight: 400;
+    font-weight: 700;
     font-family: 'Sen', sans-serif;
 }
 
@@ -65,4 +69,22 @@ a:hover{
 
 p{
     font-family: 'Sen', sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
+
+.btn-danger, .btn-danger:active, .btn-danger:visited {
+    background-color: #F67280 !important;
+    border-color: #F67280;
+}
+
+.btn-danger:hover{
+    background-color: #D65D6A !important;
+    border-color: #D65D6A;
+}
+
+hr {
+    border: 0;
+    border-top: 5px solid #F67280;
+    width: 5rem;
+ }
